@@ -1,24 +1,24 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0F172A&reversal=true" />
 
-# 🛍️ Drip Store - E-commerce Front-end
+# 🛍️ Drip Store - Front-end de e-commerce
 
-Projeto desenvolvido como parte do curso de Desenvolvimento Web da Geração Tech.  
-Front-end construído com React, Vite, Tailwind e Typescript.
+Projeto desenvolvido como parte do curso de **Desenvolvimento Web** da Geração Tech.  
+Este front-end simula uma loja virtual, utilizando **React**, **Vite**, **TailwindCSS** e **TypeScript**.
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias Utilizadas
 
-- React
-- Vite
-- Tailwind CSS
-- Typescript
+- ⚛️ React
+- ⚡ Vite
+- 🎨 TailwindCSS
+- 📝 TypeScript
 
-## 📦 Como rodar o projeto
+## 📦 Como rodar o projeto localmente
 
-Abra o terminal e execute os comandos:
+Abra o terminal e execute os comandos abaixo:
 
 ```bash
-git clone https://github.com/Rogeriogreg/drip-store-front.git
+git clone https://github.com/rogeriogreg/drip-store-front.git
 cd drip-store-front
 npm install
 npm run dev
-git commit -m "personaliza README com identidade do projeto Drip Store"
+
