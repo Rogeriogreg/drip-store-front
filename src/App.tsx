@@ -14,23 +14,23 @@ import PurchaseDonePage from "./pages/PurchaseDonePage";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/ecommerce-front">
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/purchasepage" element={ <PurchasePage/> } />
-        <Route path="/purchasedone" element={ <PurchaseDonePage/> } />
-        <Route path="/home" element={ <Navigate to="/" /> } />
-        <Route path="*" element={<ErrorPage />} />
-        <Route path="/construction/" element={<PageInConstruction />} />
-        <Route path="/cart/" element={<CartPage />} />
-        <Route path="/login/" element={<Login />} />
-        <Route path="/myproducts/" element={<OrderPage />} />
-        <Route path="/product/*" element={<ProductViewPage />} />
-        <Route path="/register/" element={<Register />} />
-        <Route path="/products/" element={<ProductPage />} />
-        <Route path="/products/*" element={<ProductPage />} />
-        <Route path="/register/registerform/" element={<RegisterForm />} />
-      </Routes>
-    </BrowserRouter>
+    <BrowserRouter basename="/drip-store-front">
+  <Routes>
+    <Route path="/" element={<HomePage />} />
+    <Route path="/purchasepage" element={<PurchasePage />} />
+    <Route path="/purchasedone" element={<PurchaseDonePage />} />
+    <Route path="/home" element={<Navigate to="/" />} />
+    <Route path="*" element={<ErrorPage />} />
+    <Route path="/construction" element={<PageInConstruction />} />
+    <Route path="/cart" element={<CartPage />} />
+    <Route path="/login" element={<Login />} />
+    <Route path="/myproducts" element={<OrderPage />} />
+    <Route path="/product/:id" element={<ProductViewPage />} />
+    <Route path="/products" element={<ProductPage />} />
+    <Route path="/register" element={<Register />} />
+    <Route path="/register/registerform" element={<RegisterForm />} />
+  </Routes>
+</BrowserRouter>
+
   );
 }
