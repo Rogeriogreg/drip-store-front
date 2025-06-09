@@ -22,3 +22,11 @@ cd drip-store-front
 npm install
 npm run dev
 
+
+🔗 Deploy
+Acesse o projeto publicado:
+👉 https://rogeriogreg.github.io/drip-store-front/
+
+👤 Desenvolvedor
+Cícero Rogério Fernandes Ramos
+Projeto individual realizado para avaliação final da disciplina.
