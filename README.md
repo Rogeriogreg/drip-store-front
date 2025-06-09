@@ -14,6 +14,8 @@ Front-end construído com React, Vite, Tailwind e Typescript.
 
 ## 📦 Como rodar o projeto
 
+Abra o terminal e execute os comandos:
+
 ```bash
 git clone https://github.com/Rogeriogreg/drip-store-front.git
 cd drip-store-front
