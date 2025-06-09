@@ -12,6 +12,14 @@ Este front-end simula uma loja virtual, utilizando **React**, **Vite**, **Tailwi
 - 🎨 TailwindCSS
 - 📝 TypeScript
 
+🔗 Deploy
+Acesse o projeto publicado:
+👉 https://rogeriogreg.github.io/drip-store-front/
+
+👤 Desenvolvedor
+Cícero Rogério Fernandes Ramos
+Projeto individual realizado para avaliação final da disciplina.
+
 ## 📦 Como rodar o projeto localmente
 
 Abra o terminal e execute os comandos abaixo:
